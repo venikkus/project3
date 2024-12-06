@@ -128,9 +128,9 @@ Data does not require cutting, because it shows good quality.
 
 **SRR292678sub_S1_L001_R2_001_fastqc.fastq**
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="SRR292678sub_S1_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
-    <img src="SRR292678sub_S1_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
-    <img src="SRR292678sub_S1_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
+    <img src="fastqc_reports/SRR292678sub_S1_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
+    <img src="fastqc_reports/SRR292678sub_S1_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
+    <img src="fastqc_reports/SRR292678sub_S1_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
 </div> <br/>
 
 | Measure                          | Value                       |
@@ -147,9 +147,9 @@ Data does not require cutting, because it shows good quality.
 
 **SRR292862_S2_L001_R1_001_fastqc.fastq**
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="SRR292862_S2_L001_R1_001_fastqc/Images/per_base_quality.png" width="350">
-    <img src="SRR292862_S2_L001_R1_001_fastqc/Images/per_base_sequence_content.png" width="350">
-    <img src="SRR292862_S2_L001_R1_001_fastqc/Images/per_sequence_gc_content.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R1_001_fastqc/Images/per_base_quality.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R1_001_fastqc/Images/per_base_sequence_content.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R1_001_fastqc/Images/per_sequence_gc_content.png" width="350">
 </div> <br/>
 
 | Measure                          | Value                       |
@@ -165,9 +165,9 @@ Data does not require cutting, because it shows good quality.
 
 **SRR292862_S2_L001_R2_001_fastqc.fastq**
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="SRR292862_S2_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
-    <img src="SRR292862_S2_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
-    <img src="SRR292862_S2_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
+    <img src="fastqc_reports/SRR292862_S2_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
 </div> <br/>
 
 | Measure                          | Value                       |
@@ -183,9 +183,9 @@ Data does not require cutting, because it shows good quality.
 
 **SRR292770_S1_L001_R1_001_fastqc.fastq** 
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="SRR292770_S1_L001_R1_001_fastqc/Images/per_base_quality.png" width="350">
-    <img src="SRR292770_S1_L001_R1_001_fastqc/Images/per_base_sequence_content.png" width="350">
-    <img src="SRR292770_S1_L001_R1_001_fastqc/Images/per_sequence_gc_content.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R1_001_fastqc/Images/per_base_quality.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R1_001_fastqc/Images/per_base_sequence_content.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R1_001_fastqc/Images/per_sequence_gc_content.png" width="350">
 </div> <br/>
 
 | Measure                          | Value                       |
@@ -201,9 +201,9 @@ Data does not require cutting, because it shows good quality.
 
 **SRR292770_S1_L001_R2_001_fastqc.fastq** 
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="SRR292770_S1_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
-    <img src="SRR292770_S1_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
-    <img src="SRR292770_S1_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R2_001_fastqc/Images/per_base_quality.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R2_001_fastqc/Images/per_base_sequence_content.png" width="350">
+    <img src="fastqc_reports/SRR292770_S1_L001_R2_001_fastqc/Images/per_sequence_gc_content.png" width="350">
 </div>
 
 | Measure                          | Value                       |
