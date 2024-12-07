@@ -226,8 +226,8 @@ jellyfish histo -o kmer_histogram_31.txt kmer_counts_31.jf
 ```
 
 <div style="display: flex; gap: 10px; align-items: center;">
-    <img src="images/kmer_histogram_31_1.png" width="415">
-    <img src="images/kmer_histogram_31_2.png" width="415">
+    <img src="images/kmer_histogram_31_1.png" width="410">
+    <img src="images/kmer_histogram_31_2.png" width="410">
 </div>
 
 Results
