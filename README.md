@@ -230,7 +230,9 @@ jellyfish histo -o kmer_histogram_31.txt kmer_counts_31.jf
     <img src="images/kmer_histogram_31_2.png" width="410">
 </div>
 
+<br>
 Results
+
 ```
 GenomeScope version 1.0
 k = 31
@@ -244,54 +246,23 @@ Model Fit                     93.6457%          94.3204%
 Read Error Rate               0.0870234%        0.0870234%        
 ```
 
-Model
-```
-Formula: y ~ (((2 * (1 - d) * (1 - (1 - r)^k)) + (2 * d * (1 - (1 - r)^k)^2) + 
-    (2 * d * ((1 - r)^k) * (1 - (1 - r)^k))) * dnbinom(x, size = kmercov/bias, 
-    mu = kmercov) * length + (((1 - d) * ((1 - r)^k)) + (d * 
-    (1 - (1 - r)^k)^2)) * dnbinom(x, size = kmercov * 2/bias, 
-    mu = kmercov * 2) * length + (2 * d * ((1 - r)^k) * (1 - 
-    (1 - r)^k)) * dnbinom(x, size = kmercov * 3/bias, mu = kmercov * 
-    3) * length + (d * (1 - r)^(2 * k)) * dnbinom(x, size = kmercov * 
-    4/bias, mu = kmercov * 4) * length)
-
-Parameters:
-          Estimate Std. Error t value Pr(>|t|)    
-d       -1.678e-02  2.661e-03  -6.305 4.37e-10 ***
-r        3.726e-03  3.954e-05  94.233  < 2e-16 ***
-kmercov  6.685e+01  6.878e-02 972.012  < 2e-16 ***
-bias     1.026e+01  8.916e-02 115.026  < 2e-16 ***
-length   4.682e+06  1.073e+04 436.263  < 2e-16 ***
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-Residual standard error: 644 on 968 degrees of freedom
-
-Number of iterations to convergence: 12 
-Achieved convergence tolerance: 7.494e-06
-```
-
 N = (M*L)/(L-K+1)
+
 Genome_size = T/N
+
 (N: Depth of coverage, M: Kmer peak, K: Kmer-size, L: avg read length T: Total bases)
 
 wc -l SRR292678sub_S1_L001_R1_001.fastq
 
- 21997384 SRR292678sub_S1_L001_R1_001.fastq
- 21997384 / 4 = 
-
-N = 2.58
-M = 
-K = 31
-L = 
-T = 250 Mbp
-
-Genome_size = T/N = /2.58 = 96938779.00 bp
-
-Пиковая глубина (M): 1
-Покрытие (N): 2.58
-Размер генома: 96938779.00 bp
-
+Run vis.py
+```
+Kmer peak (M)           1
+Depth of coverage (N)   2.58
+Genome_size:            96938779.00 bp
+avg read length (L)     49.00
+Kmer-size (K)           31
+Total bases (T)         500000018.00
+```
 
 ## 3. Assembling E. coli X genome from paired reads
 
@@ -461,14 +432,16 @@ Align contig to reference using mauve
 **Result**
 <div style="display: flex; gap: 10px; align-items: center;">
     <img src="images/mauve.jpg" width="1000">
+</div><br>
+
+**Shiga toxin genes**
+
+<div style="display: flex; gap: 10px; align-items: center;">
+    <img src="images/shiga_1.png" width="1000">
 </div>
+<div style="display: flex; gap: 10px; align-items: center;">
+    <img src="images/shiga_2.png" width="1000">
+</div><br>
 
 
-## 8. Tracing the source of toxin genes in E. coli X
-
-
-## 9. Antibiotic resistance detection
-
-
-## 10. Antibiotic resistance mechanism
 
